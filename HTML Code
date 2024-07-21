@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Dina's Bakery</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <style>
+    h1 {
+      color:darkorchid;
+    }
+    h2 {
+      color:mediumorchid;
+    }
+    h3 {
+      color:orchid;
+    }
+    .nav-link{
+      margin-right:20px;
+      color:blue; 
+    }
+  </style>
+  
+</head>
+
+<body>
+
+  <header>
+    <h1>Dina's Bakery</h1>
+    <a href="#menu" class="nav-link">Menu</a>
+    <a href="#order-form" class="nav-link">Order Form</a>
+    <br><br>
+    <img  
+      id="header-img"
+      width="300"
+      src="https://www.posist.com/restaurant-times/wp-content/uploads/2016/10/A-Detailed-Guide-On-Starting-A-Bakery-Business-In-India-In-2023.jpg"  
+      alt="Display of Bakery Goods"
+    />
+  </header>
+
+  <main>
+    <section>
+      <section id="menu">
+      <h2>Menu</h2>
+      
+      
+      <article>
+        <h3>Rugelach</h3>
+        <img 
+          width="200"         src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/ChocolateRugelach.JPG/1200px-ChocolateRugelach.JPG"  
+          alt="Rugelach"
+        /> 
+        <p>
+          Rugelach, with their flaky pastry and delightful fillings, are a delectable treat that effortlessly combines rich flavors and a perfect texture in every bite.
+          <br>
+          <i>Price: $1/1 rugelach</i> 
+        </p>
+      </article>
+
+      <article>
+        <h3>Banana Bread</h3>
+        <img 
+          width="200"              src="https://www.allrecipes.com/thmb/bnia5JjsQLyw_IBs6i-mKnFSBY0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ALR-17066-janets-rich-banana-bread-VAT-4x3-2-40c789f220cd49e9b80220ef8a27790c.jpg"
+          alt="Banana Bread"
+        /> 
+        <p>
+          Banana bread is a delightful treat, its moist texture and sweet, rich flavor making it a beloved comfort food that is perfect for any time of the day.
+          <br>
+          <i>Price: $5/1 loaf</i> 
+        </p>
+      </article>
+
+      <article>
+        <h3>Peanut Butter Muffin</h3>
+        <img 
+          width="200"         
+          src="https://thefirstyearblog.com/wp-content/uploads/2023/08/Chocolate-Peanut-Butter-Muffins-Square-2023.png"  
+          alt="Peanut Butter Muffin"
+        /> 
+        <p>
+          Peanut butter muffins are a delightful treat, combining the rich, nutty flavor of peanut butter with a moist and fluffy texture that's simply irresistible. 
+          <br>
+          <i>Price: $1/1 muffin</i> 
+        </p>
+      </article>
+      
+    </section>
+
+    <section>
+      <section id="order-form">
+      <h2>Place Your Order</h2>
+
+      <form>
+        <label>Number of Rugelach: <input type="number" value="0" min="0" </label>
+        <br>
+        <label>Number of Banana Bread Loaves: <input type="number" value="0" min="0" </label>
+        <br>
+        <label>Number of Peanut Butter Muffins: <input type="number" value="0" min="0" </label>
+        <br><br>
+        
+        <label>Drinks</label>
+          <br>
+          <label><input type="checkbox"</label>Water Bottle
+          <br>
+          <label><input type="checkbox"</label>Snapple
+          <br>
+          <label><input type="checkbox"</label>Coke
+        
+        <br><br>
+        <label>Special Requests (Allergies, etc.): </label>
+        <br>
+        <textarea maxLength="250"></textarea>
+        <br><br>
+        
+        <label><input type="submit" value="Go To Checkout"></label>
+        
+      </form>
+      
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with Love by @abrahim23056</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
